@@ -1,0 +1,24 @@
+* {
+    padding: 0; margin: 0;
+  }
+  
+  header nav {
+    padding: 10px;
+    background-color: #FDA7DF;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  header nav h1 {
+    display: inline;
+  }
+  
+  header nav ul {
+    float: right;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }

@@ -1,0 +1,48 @@
+*{margin: 0;padding: 0}
+.box{
+    width: 500px;
+    height: 312px;
+    position: relative;
+}
+.box img{
+    width: 100%;
+}
+img,p{
+    position: absolute;
+}
+
+.atasKiri{
+    top: 10px;
+    left: 10px;
+}
+.bawahKiri{
+    bottom: 10px;
+    left: 10px;
+}
+.atasKanan{
+    top: 10px;
+    right: 10px;
+}
+.bawahKanan{
+    bottom: 10px;
+    right: 10px;
+}
+.tengah{
+    left: 50%;
+    top: 30%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+.tengah2{
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}

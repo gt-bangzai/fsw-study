@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+  }
+  
+  #navbar {
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    padding: 20px; 
+    flex-basis: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*position:fixed; ikut geser
+    position:absolute 
+    position:relative; * tetap */
+  }
+  
+  
+  .logo {
+    width: 100%;
+    padding-left: 25px;
+  }
+
+
+/* LOGO */
+.logo1{
+position: absolute;
+width: 70px;
+height: 32.76px;
+left: 62px;
+top: 42.94px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 33px; /* identical to box height */
+color: #414141;
+  }
+  
+/* ABOUT */
+.about{
+position: absolute;
+width: 81px;
+height: 32.76px;
+left: 782px;
+top: 43.93px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px; /* identical to box height */
+color: #414141;
+}
+
+/* ARTICLES */
+.articles{
+position: absolute;
+width: 105px;
+height: 32.76px;
+left: 913px;
+top: 43.93px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;/* identic to box height */
+color: #414141;
+}
+
+/* Rectangle 3 */
+.subsc{
+position: absolute;
+width: 150px;
+height: 49.63px;
+left: 1068px;
+top: 35px;
+border: 1px solid #414141;
+box-sizing: border-box;
+}
+
+/* Home */
+.home{
+position: absolute;
+width: 53px;
+height: 25px;
+left: 1177px;
+top: 2264px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px; /* identical to box height */
+text-align: justify;
+color: #FFFFFF;
+}
+
+.logo a {
+    color: black;
+}
+  
+.logo a:hover {
+ color:blue;
+}
+  
+.menu {
+  width: 100%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+}
+  
+.wrapper-list-menu {
+    display: flex; 
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+}
+  
+.wrapper-list-menu li {
+    margin-left: 15px;
+    margin-right: 25px;
+}
+  
+.a-style-navbar {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+  
+.wrapper-list-menu li a:hover {
+    color: rgb(3, 104, 8);
+}
+
+.banner .wrapper-banner{
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ini u/ background */
+  background-repeat: no-repeat;
+  background-color: #dedede;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* buat text di tengah banner 
+  .banner .wrapper-banner .wrapper-text-banner{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    */
+  }
+
+.banner .wrapper-banner img {
+    width: 100%;
+}
+  
+.product-detail .box-right {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.product-list {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.product-list .title-box {
+margin-bottom: 25px;
+}
+
+.product-box {
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.product-box .product .wrapper-description{
+padding: 20px;
+}
+
+.title-box{
+width: 100%;
+}
+
+.description-box{
+padding-left: 5%;
+padding-right: 5%;
+}
+
+
+/* Subscribe Email Box */
+#subscribe-css {
+overflow:hidden;
+clear:both;
+position:center;
+margin:20px 0;
+border: bottom 10px;
+border: top 10px;
+}
+
+.subscribe-wrapper {
+color: #fff;
+font: size 24px;
+/* line: height 24px; */
+text-align:center;
+margin:0 0 20px 0;
+text-transform:none;
+font-weight:400;
+width: 100%;
+}
+
+.subscribe-form {
+clear:both;
+}
+
+
+
+.footer {
+/* padding-right: 5%; */
+display: flex;
+/* justify-content: flex-end; */
+background-color: #6CBE5E;
+87eb0;
+}
+
+.wrapper-menu-footer {
+display: flex; /* efek side to side */
+list-style-type: none; /* biar ul list-nya ilang ga bulet */
+margin: 0; /* efek margin di li, di 0 biar ilang */
+padding: 0; /* efek margin kasi pading 0 */
+justify-content:right; /* tulisan menu-nya ke kanan semua */
+}
+
+.wrapper-menu-footer li {
+/* margin-left: 15px; */
+margin-right: 25px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.a-style-footer-x {
+font-size: 18px;
+text-decoration: none;
+color: whitesmoke;
+}
+
+
+@media screen and (max-width:575px) {
+.a-style-navbar{
+font-size: 14px;
+}
+
+}
+
+@media screen and (max-width:375px) {
+.a-style-navbar{
+font-size: 14px;
+}
+

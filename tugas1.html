@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUGAS-1-HTML</title>
+    <link rel="stylesheet" href="assets/plugin/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style5.css" />
+      </head>
+<body>
+
+<!-- Ini Bagian Paling Atas Navigation Bar-->
+<div id="navbar">
+<div class="logo">
+  <a class="a-style-navbar" href="HOME">Logo</a> </div>
+      <div class="menu">
+      <ul class="wrapper-list-menu">
+      <li><a class="a-style-navbar" href="">About</a></li>
+      <li><a class="a-style-navbar" href="">Article</a></li>
+      <li><a class="a-style-navbar" href="">Subscribe</a></li>
+      </ul>
+</div>
+</div>
+
+<!-- Ini Bagian Banner Depan-->    
+<div class="container-fluid">
+  <div class="row banner">
+      <div class="col wrapper-banner" style="background-image: url('./assets/images/banner.jpg');">
+        <!--
+        <img class="w-100" src ="./assets/images/banner.jpg"> -->
+        <div class="wrapper-text-banner" class="text-center">
+          <h2>ART OF PLAN</h2>
+          <p>ALL ABOUT ART OF NATURE</p>
+        </div>
+      </div>
+    </div>
+</div>  
+
+<!--Ini Bagian Product List-->
+<div class="row product-list">
+<div class="col-12 title-box">
+<h3 class="text-center" stye="font-weight:bold">LATEST ARTICLES</h3>
+</div>
+<!-- point 12 = 100% layar jd kl ada 3 bagi col menjadi 4-->
+<!-- col layout contoh : col 12 col-sm-12 col-md-6 col-lg-4 product check di bootstrap-tricks-layout-->
+<div class="col-12 col-sm-12 product-box">
+<div class="row wrapper-product-box">
+<div class="col-4 product">
+<div class="wrapper-p-c card">
+<div class="wrapper-image">
+<img class="w-100 p-0" src="assets/images/product-1.jpg">
+</div>
+<div class="wrapper-description">
+<h5 class="text-center" style="font-weight: bold;">ARTICLE PERTAMA</h5>
+<p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div>
+</div>
+</div>
+
+
+  <div class="col-4 product">
+      <div class="wrapper-p-c card">
+        <div class="wrapper-image">
+          <img class="w-100 p-0" src="assets/images/product-2.jpg">
+            <div class="wrapper-description">
+            <h5 class="text-center" style="font-weight: bold;">ARTICLE KEDUA</h5>
+            <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+          </div>
+        </div>
+      </div>
+    </div>     
+
+  <div class="col-4 product">
+      <div class="wrapper-p-c card">
+        <div class="wrapper-image">
+          <img class="w-100 p-0" src="assets/images/product-3.jpg">
+          </div>
+            <div class="wrapper-description">
+              <h5 class="text-center" style="font-weight: bold;">ARTICLE KETIGA</h5>
+              <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+
+<!-- Ini Bagian Bawah Product Detail-->
+
+  <div class="row product-detail">
+      <div class="box-left col-6 p-3">
+        <img class="w-100" src="assets/images/product-detail.jpg">
+        </div>
+          <div class="col-6 d-flex justify-content-center align-items-center p-4">
+            <div class="wrapper-desc-detail">
+                <h5 class="text-center" style="font-weight: bold;">ABOUT</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+
+<!-- Subscribe Box Email -->
+
+<div class="col-12 title-box">
+    <h4 class="text-center" style="font-weight:bold">SUBSCRIBE</h4>
+    <p class="text-center" style="font-weight: bold;">SIGN UP TO OUR NEWSLETTER</p>
+</div>
+
+  <div id='subscribe-css'>         
+      <div class='subscribe-wrapper'>
+          <div class='subscribe-form'>
+              <form action='https://mail.google.com' class='subscribe-form' method='post' onsubmit='window.open (&apos;https://mail.google.com;, &apos;popupwindow&apos;, &apos;scrollbars=yes,width=550,height=520&apos;);return true' target='popupwindow'>
+                <input name='uri' type='hidden' value='bangzai'/>
+                <input name='loc' type='hidden' value='en_US'/>
+                <input autocomplete='off' class='subscribe-css-email-field' name='email' placeholder='Masukkan Email Anda '/>
+                <input class='subscribe-css-email-button' title='' type='submit' value='Submit'/>
+              </form>
+          </div>
+      </div>
+  </div>
+
+<!-- Ini Bagian Footer-->
+
+<div class="row footer">
+    <div class="col-12 menu-footer">
+    <ul class="wrapper-menu-footer">
+    <li class="a-style-footer-x" >About</li>
+    <li class="a-style-footer-x">Articles</li>
+    <li class="a-style-footer-x">Home</li>
+    </ul>
+    </div>
+</div>      
+
+</body>
+</html>
